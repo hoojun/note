@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>proxy</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var hash = location.hash;
+		if(hash.length > 0) {
+			hash = hash.substring(1);
+		}
+		//alert(hash);
+		window.parent.parent.hello(hash);
+	</script>
+</body>
+</html>
