@@ -1,4 +1,4 @@
-#vagrant使用scp拷贝文件
+# vagrant使用scp拷贝文件
 
 vagrant 在安装完毕后, 默认的用户名是`vagrant`,密码也是`vagrant`; 开发连接到vagrant的ssh端口是2222.
 
