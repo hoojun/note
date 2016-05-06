@@ -19,8 +19,9 @@ Host default
 ```
 
 可以使用下面的命令格式来实现从本地往vagrant虚拟机里面拷贝文件
+
 ```bash
 $ scp -P 2222 ~/Downloads/node-v5.0.0-linux-x64.tar.gz vagrant@127.0.0.1:/home/vagrant/Download
 ```
 
->上面的命令是把本地的`~/Downloads/node-v5.0.0-linux-x64.tar.gz`复制到vagrant虚拟机的`/home/vagrant/Download`目录下面
+> 上面的命令是把本地的`~/Downloads/node-v5.0.0-linux-x64.tar.gz`复制到vagrant虚拟机的`/home/vagrant/Download`目录下面

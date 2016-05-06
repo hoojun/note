@@ -1,6 +1,7 @@
+# mac tree命令
 
-##mac tree命令
 mac下默认是没有 tree命令的，不过我们可以使用find命令模拟出tree命令的效果，如显示当前目录的 tree 的命令：
+
 ```bash
 find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
 ```
@@ -12,9 +13,11 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 ```
 
 也可以使用 homebrew 安装 tree 命令行：
+
 ```bash
 brew install tree
 ```
+
 这样就在你的mac上安装了 tree 命令行了。
 
 tree命令行参数（只实用与安装了tree命令行工具）：
